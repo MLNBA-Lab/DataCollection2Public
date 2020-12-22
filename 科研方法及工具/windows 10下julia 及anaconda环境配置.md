@@ -156,7 +156,18 @@ vscode 中使用jupyter 貌似无法交互，好像因为涉及到用WebIO，最
 
 ## [Julia 中调用python](https://zhuanlan.zhihu.com/p/41953244)
 
+### 使用自己装的anaconda：
 
+```julia
+]
+add PyCall
+#Backspace 推出包管理模式
+ENV["PYTHON"] = raw"D:\ProgramData\Anaconda3" # anaconda安装位置
+]
+build PyCall #
+```
+
+这时候打开anaconda navigator 应该会看到多出来一个环境。
 
 ## **最后 几个julia材料**
 
