@@ -10,7 +10,7 @@
 
 注意在windows下， = 两边不要有空格！！！！
 
-```text
+```bash
  #HTTP 代理设置：
  set http_proxy=http://127.0.0.1:1080
  
@@ -36,7 +36,7 @@
 
 在设置好临时代理的cmd下，设置julia 服务器
 
-```text
+```bash
  julia
  ]
  add JuliaZH
@@ -51,7 +51,7 @@
 
 [https://http://julialang.github.io/Pkg.jl/stable/environments/](http://link.zhihu.com/?target=https%3A//julialang.github.io/Pkg.jl/stable/environments/)
 
-```text
+```bash
  shell> mkdir MyProject
  
  shell> cd MyProject
@@ -73,7 +73,7 @@
 
 如果没有，可以参考[https://http://github.com/JuliaLang/IJulia.jl](http://link.zhihu.com/?target=https%3A//github.com/JuliaLang/IJulia.jl) 进行安装：
 
-```text
+```julia
  using Pkg
  Pkg.add("IJulia")
  using IJulia
@@ -92,7 +92,7 @@
 
 - 输入命令
 
-  ```text
+  ```powershell
   conda init powershell
   ```
 
@@ -100,7 +100,7 @@
 
 - 关闭当前powershell窗口，重新打开一个powershell窗口输入
 
-  ```text
+  ```powershell
   conda activate 环境名
   ```
 
@@ -114,7 +114,7 @@ CMD 的话只需把上面三步中的powershell 改为cmd.exe 即可。
 
 使用命令
 
-```text
+```powershell
 jupyter kernelspec remove 'kernelname'
 ```
 
@@ -124,7 +124,7 @@ jupyter kernelspec remove 'kernelname'
 
 使用命令
 
-```text
+```powershell
 jupyter kernelspec list
 ```
 
