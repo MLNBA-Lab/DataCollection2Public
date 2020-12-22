@@ -154,6 +154,10 @@ vscode 中使用jupyter 貌似无法交互，好像因为涉及到用WebIO，最
 
 
 
+## [Julia 中调用python](https://zhuanlan.zhihu.com/p/41953244)
+
+
+
 ## **最后 几个julia材料**
 
 [https://http://juliadocs.github.io/Julia-Cheat-Sheet/zh-cn/](http://link.zhihu.com/?target=https%3A//juliadocs.github.io/Julia-Cheat-Sheet/zh-cn/)
