@@ -169,6 +169,16 @@ build PyCall #
 
 这时候打开anaconda navigator 应该会看到多出来一个环境。
 
+2021年1月10日更新：
+
+上边build PyCall的操作是在Windows10 上测试的。
+
+在Mac上测试发现，需要先在anaconda 里手动建立一个环境，然后ENV["PYTHON"]指定路径具体到python路径：
+
+```text
+ENV["PYTHON"] = raw"your anaconda path/anaconda/envs/your new env name/bin/python" # 新建环境中python路径
+```
+
 ## **最后 几个julia材料**
 
 [https://http://juliadocs.github.io/Julia-Cheat-Sheet/zh-cn/](http://link.zhihu.com/?target=https%3A//juliadocs.github.io/Julia-Cheat-Sheet/zh-cn/)
