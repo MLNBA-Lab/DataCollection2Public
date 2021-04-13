@@ -30,7 +30,7 @@ https://support.microsoft.com/zh-cn/topic/%E6%98%BE%E7%A4%BA-%E5%BC%80%E5%8F%91%
 
 
 
-#### 直接拖拖动Excel2Latex 到excel，即可在加载项中使用宏
+#### 最后，直接拖动Excel2Latex 到excel，即可在加载项中使用宏
 
 
 
